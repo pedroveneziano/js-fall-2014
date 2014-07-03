@@ -18,6 +18,10 @@
 
 - Add some numbers. Add a number and a string. Subtract a number and a string.
 
+### Goal
+
+By the end of this section, you should be able to create a javascript program and run it in a browser. You should be able to create variables assign them values and manipulate them.
+
 ## Javascript in the Browser
 
 - The Document Object Model
@@ -27,6 +31,8 @@
 - Altering the DOM with JS.
 - Events: attaching event handlers
 - Adding a css class
+
+## Javascript Basics, Continued
 
 ## Javascript in the Browser, Continued
 
