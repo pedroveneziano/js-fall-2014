@@ -5,11 +5,11 @@
 ### Topics
 
 - Loading a script
-..- When a script loads
-..- Inline js vs external js.
+    - When a script loads
+    - Inline js vs external js.
 - Variables and Types
-..- String, Numbers, Booleans
-..- Lists, Objects
+    - String, Numbers, Booleans
+    - Lists, Objects
 - Functions
 - Using the Debugger and the Console
 - Execution of a script
@@ -21,7 +21,7 @@
 ## Javascript in the Browser
 
 - The Document Object Model
-..- Javascript’s Relationship to the DOM / CSS
+    - Javascript’s Relationship to the DOM / CSS
 - Variable scope
 - The window object
 - Altering the DOM with JS.
