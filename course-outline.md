@@ -56,6 +56,8 @@ By the end of this section, you should:
 
 ## Javascript Basics, Continued
 
+### Topics
+
 - [ ] Control Flow
     - [ ] If/else statements
     - [ ] Looping with 'for'
@@ -74,12 +76,23 @@ By the end of this section, you should:
 
 ## Javascript in the Browser, Continued
 
+### Topics
+
 - [ ] How events work
     - [ ] Capture, bubbling
     - [ ] Delegation
 - [ ] Introducing jQuery
+    - [ ] What it offers
+    - [ ] Manipulating the DOM
+    - [ ] Events with jQuery
+    - [ ] Chaining
 
 ### Goal
+
+By the end of this section, you should: 
+
+- Have in-depth knowledge about how events work.
+- Understand how to load and use jQuery to perform simple manipulatoins. 
 
 ### Live Coding
 
@@ -87,7 +100,67 @@ By the end of this section, you should:
 
 ## Organizing Code
 
-- [ ] `this` keyword
-- [ ] Objects for organization
-- [ ] `new` keyword and constructor functions.
+### Topics
 
+- [ ] Functions as organizational units
+    - [ ] `this` keyword
+    - [ ] `new` keyword and constructor functions.
+    - [ ] Immediately invoked function expressions
+    - [ ] Closures
+- [ ] Objects for organization
+
+## Reusing and Organizing Code
+
+### Topics
+
+- [ ] Functions as organizational units
+    - [ ] `this` keyword
+    - [ ] `new` keyword and constructor functions.
+    - [ ] Immediately invoked function expressions
+- [ ] Objects for organization
+
+### Goal
+
+By the end of this section, you should: 
+
+- Understand how the `this` and `new` keyword work and how to use them.
+- be able use an IIFE to create locally scoped programs
+- Use objects and functions to create 'modules'.
+
+## Ajax and Remote Data
+
+### Topics
+
+- [ ] Ajax
+    - [ ] Requesting data without reloading the page
+    - [ ] Intro to promises
+    - [ ] Security and JSONP
+- [ ] Templating with Mustache and Underscore
+- [ ] Introducing Parse.js
+
+### Goal
+
+By the end of this section, you should be able to: 
+
+- Make an ajax request and process its respose.
+- Request data from a server you do not own and understand the security implications
+- Use a JS template to ease the creation of DOM.
+- Use the Parse library to store some simple data.
+
+## Sound and Video
+
+- [ ] Audio tag
+- [ ] Video tag
+- [ ] Audio library (tbd)
+
+### Goal
+
+By the end of this section, you should be able to: 
+
+- Load and script audio and video in the browser
+- Use an Audio library to create sounds.
+
+## Node JS
+
+- [ ] A simple webserver
+- [ ] Socket.io
