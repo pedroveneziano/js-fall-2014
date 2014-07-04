@@ -4,14 +4,14 @@
 
 ### Topics
 
-- Loading a script
-    - When a script loads
-    - Inline js vs external js
-- Variables and Types
-    - String, Numbers
-    - Arrays, Objects
-- Functions
-- Using the the Console
+- [] Loading a script
+    - [] When a script loads
+    - [] Inline js vs external js
+- [] Variables and Types
+    - [] String, Numbers
+    - [] Arrays, Objects
+- [] Functions
+- [] Using the the Console
 
 ### Exercises
 
@@ -28,15 +28,19 @@ By the end of this section, you should be able to:
 - Create a function with arguments call it and read its return value.
 - Open the browser console and execute javascript.
 
+### Live Coding
+
+- A fun and advanced demo.
+
 ## Javascript in the Browser
 
-- The Document Object Model
-    - Javascript’s Relationship to the DOM / CSS
-- The `window` object
-- Altering the DOM with JS
-- Events: attaching event handlers
-    - Mouse and Keyboard events 
-- CSS animations
+- [] The Document Object Model
+    - [] Javascript’s Relationship to the DOM / CSS
+- [] The `window` object
+- [] Altering the DOM with JS
+- [] Events: attaching event handlers
+    - [] Mouse and Keyboard events 
+- [] CSS animations
 
 ### Live Coding
 
@@ -52,12 +56,12 @@ By the end of this section, you should:
 
 ## Javascript Basics, Continued
 
-- Control Flow
-    - If/else statements
-    - Looping with 'for'
-- Variable scope
-- Useful built-ins: Date, Math, Location
-- Using the debugger
+- [] Control Flow
+    - [] If/else statements
+    - [] Looping with 'for'
+- [] Variable scope
+- [] Useful built-ins: Date, Math, Location
+- [] Using the debugger
 
 ### Goal
 
@@ -70,8 +74,20 @@ By the end of this section, you should:
 
 ## Javascript in the Browser, Continued
 
-- How events work
-    - Capture, bubbling
-    - Delegation
-- Introducing jQuery
-- Code example: a simple game.
+- [] How events work
+    - [] Capture, bubbling
+    - [] Delegation
+- [] Introducing jQuery
+
+### Goal
+
+### Live Coding
+
+- Code example: a simple game
+
+## Organizing Code
+
+- [] `this` keyword
+- [] Objects for organization
+- [] `new` keyword and constructor functions.
+
