@@ -33,17 +33,17 @@ In addition, I strongly recommend that you check out the following websites, or 
 
 #### Grading Standards
 
-*A* - Superior work. You have clearly demonstrated an enthusiasm for the projects, and an understanding of the concepts that guide your decisions. Your work demonstrates original and creative thinking in the field of creative web development. Your projects are consistently and cleanly executed with a high level of attention devoted to craft and details. You’re able to explain your own work and offer insightful critique of your classmates’ projects. You are present in class and participate in discussions.
-*
-*B* - Good work. You’ve completed all of the projects with a sufficient level of quality. Your projects are less conceptually clear, but you have displayed clear effort in attempting an understanding. Your projects are cleanly executed with a good level of attention devoted to craft and details. You’re able to explain your own work and offer insightful critique of your classmates’ projects. You are present in class and participate in discussions.
-*
-*C* - Satisfactory work. You’ve shown that you can interact with the concepts presented in class, but you have not demonstrated a deep understanding or enthusiasm for your work. You do not demonstrate a high level of attention to craft. You participate in some discussions but have not added insightful critique.
-*
-*D* - Your work adheres to each project’s guidelines but you have not demonstrated original thought or depth of understanding of the concepts presented in class. You have not participated in class discussions, or have missed a significant amount of classes. 
-*
-*F* - Failing grades are given for required work that is not submitted or for incomplete final projects. Make-up work or completion of missed assignments may be permitted only with the approval of the instructor and the program director. 
-*
-*I* - A grade of I (Incomplete), signifying a temporary deferment of a regular grade, may be assigned when coursework has been delayed at the end of the semester for unavoidable and legitimate reasons. Incomplete grades are given only with the written approval of the instructor and the program director. The Request for an Incomplete Grade form must be filled out by the student and instructor prior to the end of the semester.
+_A_ - Superior work. You have clearly demonstrated an enthusiasm for the projects, and an understanding of the concepts that guide your decisions. Your work demonstrates original and creative thinking in the field of creative web development. Your projects are consistently and cleanly executed with a high level of attention devoted to craft and details. You’re able to explain your own work and offer insightful critique of your classmates’ projects. You are present in class and participate in discussions.
+
+_B_ - Good work. You’ve completed all of the projects with a sufficient level of quality. Your projects are less conceptually clear, but you have displayed clear effort in attempting an understanding. Your projects are cleanly executed with a good level of attention devoted to craft and details. You’re able to explain your own work and offer insightful critique of your classmates’ projects. You are present in class and participate in discussions.
+
+_C_ - Satisfactory work. You’ve shown that you can interact with the concepts presented in class, but you have not demonstrated a deep understanding or enthusiasm for your work. You do not demonstrate a high level of attention to craft. You participate in some discussions but have not added insightful critique.
+
+_D_ - Your work adheres to each project’s guidelines but you have not demonstrated original thought or depth of understanding of the concepts presented in class. You have not participated in class discussions, or have missed a significant amount of classes. 
+
+_F_ - Failing grades are given for required work that is not submitted or for incomplete final projects. Make-up work or completion of missed assignments may be permitted only with the approval of the instructor and the program director. 
+
+_I_ - A grade of I (Incomplete), signifying a temporary deferment of a regular grade, may be assigned when coursework has been delayed at the end of the semester for unavoidable and legitimate reasons. Incomplete grades are given only with the written approval of the instructor and the program director. The Request for an Incomplete Grade form must be filled out by the student and instructor prior to the end of the semester.
 
 For undergraduate students, if a grade of incomplete is approved, outstanding work must be submitted by the seventh week of the following Fall semester (for Spring and Summer courses) or by the seventh week of the following Spring semester (for Fall courses). Otherwise, a grade of I will automatically convert to a permanent unofficial withdrawal (WF) after a period of four weeks. For graduate students, the maximum deadline for completion of an incomplete is one year though a shorter period may be imposed at the discretion of the instructor.
 
