@@ -151,7 +151,7 @@ By the end of this section, you should be able to:
 
 - [ ] Audio tag
 - [ ] Video tag
-- [ ] Audio library (tbd)
+- [ ] Audio library (tbd: jsfx?)
 
 ### Goal
 
@@ -164,3 +164,33 @@ By the end of this section, you should be able to:
 
 - [ ] A simple webserver
 - [ ] Socket.io
+
+## Working w/ Maps
+
+- [ ] Mapbox
+- [ ] Using Mapbox JS SDK
+
+### Goal
+
+By the end of this section, you should be able to: 
+
+- Load your own map on a webpage.
+- Add interactive features and data  to the map
+
+## Canvas
+
+- [ ] Canvas tag and the 2d context
+- [ ] Creating basic shapes and working with styles
+- [ ] Using geometry to create more complex shapes
+- [ ] Simple animation loop
+- [ ] User interaction with canvas
+- [ ] Using images.
+- [ ] Basic transformations: translate, rotate, scale.
+
+### Goal
+
+By the end of this section, you should be able to: 
+
+- Draw basic and complex shapes on a canvas.
+- Move shapes around the canvas.
+-  
