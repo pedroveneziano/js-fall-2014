@@ -9,9 +9,20 @@ Arnhold Hall 55 W. 13th 908
 
 ***
 
-(TODO INTRO)
-(TODO OUTCOMES)
-(TODO PROJECTS / EVALUATIONS)
+#### Introduction
+
+In recent years, Javascript has gone from being treated as a toy to a serious platform, powering our most pervasive interactions. We'll look at how this language breathes life into the web, and can be used to create powerful applications and compelling artwork.
+
+#### Outcomes
+
+At the end of this course, students will be able to:
+
+- Skillfully use the web as a platform for creative and artistic explorations
+- Think creatively in a technical context, and vice versa
+- Build richly interactive web experiences
+- Employ the latest HTML5 features in their projects
+- Demonstrate familiarity with modern front-end development practices
+
 
 #### Projects and Evaluation
 
