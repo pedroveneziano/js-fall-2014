@@ -13,6 +13,22 @@ Arnhold Hall 55 W. 13th 908
 (TODO OUTCOMES)
 (TODO PROJECTS / EVALUATIONS)
 
+#### Projects and Evaluation
+
+
+During the first half of the class, there will be weekly exercises. Then students will complete larger midterm and final projects. These projects are the core of this course: students are expected to think out of the box, experiment with the technology, and iteratively polish their work. 
+
+This will be an interactive class. Students are expected to be engaged and ready to participate. Hands-on-the-keyboard practice is the only way to learn to program.
+
+25% - Class participation
+
+25% - Weekly Exercises
+
+25% - Midterm Project
+
+25% - Final Project
+
+
 #### Books & Resources
 
 I’ll be assigning required readings from the web to supplement the class work. We’ll be using [Eloquent Javascript](http://eloquentjavascript.net/) for many of the readings. It’s free online, but also available in print if you like to have a physical book.
@@ -30,6 +46,7 @@ In addition, I strongly recommend that you check out the following websites, or 
 - Advanced HTML5 articles: [HTML5 Rocks](http://www.html5rocks.com/en/)
 
 #### Schedule
+
 
 __8/25__ - No Class (Instructor Away)
 
