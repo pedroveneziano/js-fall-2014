@@ -29,6 +29,27 @@ In addition, I strongly recommend that you check out the following websites, or 
 - Creating shareable javascript experiments: [JS Fiddle](http://jsfiddle.net)
 - Advanced HTML5 articles: [HTML5 Rocks](http://www.html5rocks.com/en/)
 
+#### Schedule
+
+__8/25__ - No Class (Instructor Away)
+__9/1__ - No Class (Labor Day)
+__9/8__ - Intro / Javascript Basics
+__9/15__ - Javascript in the browser
+__9/22__ - More Javascript Basics
+__9/29__ - Ajax and Remote Data
+__10/6__ - Persistence
+__10/13__ - Persistence
+__10/20__ - NodeJS
+__10/27__ - NodeJS - Project 1 Due
+__11/3__ - The Canvas Element
+__11/10__ - The Canvas Element
+__11/17__ - Sound and Video
+__11/24__ - Working with Maps
+__12/1__ - Overflow
+__12/8__ - Overflow - Final Project Due
+
+
+
 (TODO SCHED)
 
 #### Grading Standards
