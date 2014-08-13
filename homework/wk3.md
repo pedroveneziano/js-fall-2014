@@ -1,7 +1,7 @@
 Reading
 =======
 
-Read all of [Chapter 12](http://eloquentjavascript.net/12_browser.html) and [Chaper 13](ihttp://eloquentjavascript.net/13_dom.html) of Eloquent Javascript.
+Read all of [Chapter 12](http://eloquentjavascript.net/12_browser.html) and [Chaper 13](http://eloquentjavascript.net/13_dom.html) of Eloquent Javascript.
 
 Exercise
 =========
