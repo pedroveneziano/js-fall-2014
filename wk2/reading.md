@@ -3,10 +3,10 @@ Reading
 
 Read all of [Chapter 1](http://eloquentjavascript.net/01_values.html) and up to and including the section called "Mutability" in [Chapter 4](http://eloquentjavascript.net/04_data.html) of Eloquent Javascript.
 
-Excercise
+Exercise
 =========
 
-To complete these exercises, you'll make a html file with a script tag. Complete the tasks below, adding console.log statements so you can see the results of each task.
+To complete these exercises, you'll make a html file with a script tag. Complete the tasks below, adding console.log statements so you can see the results of each task. Keep refreshing the page in your browser and checking your console as you work. Commit your work to your repository and push it to github.
 
 - Make a variable that holds a number. 
 - Make a variable that holds another number.
