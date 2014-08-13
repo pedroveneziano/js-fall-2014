@@ -8,7 +8,6 @@ Exercise
 
 To complete these exercises, use the wk3 homework template in your repo.
 
-
 - Load the exercise html file in your browser and note its initial appearance.
 - Create a variable that stores the DOM element with ID `rect`;
 - Using javascript, add a css class named `bordered` to this element.
