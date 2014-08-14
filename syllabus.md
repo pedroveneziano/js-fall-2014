@@ -56,7 +56,7 @@ In addition, I strongly recommend that you check out the following websites, or 
 - Creating shareable javascript experiments: [JS Fiddle](http://jsfiddle.net)
 - Advanced HTML5 articles: [HTML5 Rocks](http://www.html5rocks.com/en/)
 
-#### Schedule
+#### Schedule (Tentative)
 
 
 __8/25__ - No Class (Instructor Away)
@@ -91,9 +91,6 @@ __12/1__ - Overflow
 
 __12/8__ - Overflow - Final Project Due
 
-
-
-(TODO SCHED)
 
 #### Grading Standards
 
