@@ -1,3 +1,38 @@
+
+- Create a folder (directory) on your Desktop, called `command-line`
+- Open it in Finder and resize it so it takes up the right half of your screen.
+- Open Terminal.app and resize it so it takes up the left half of your screen.
+
+It should look like this.
+
+- Type `cd ~/Desktop/command-line`
+
+Commands have a few parts. Here `cd` is the command name. The second part is its 'argument.' With this command you're telling the terminal to _c_hange _d_irectory to the directory you just made.
+
+In order to __print__ your __working directory__ is, type the command `pwd`. 
+
+- In order to __list__ what's in the current directory, type the command `ls`. Since there are no files in this directory, the command won't print anything. Let's change that.
+- To create new empty file, we can use the command `touch`. Touch creates a file with whatever name you supply it. Try entering `touch my-new-file.txt` into the terminal. You should notice a new file appear in your Finder.
+- Try typing `ls` now. You should see the name of your new file.
+- In Finder, open this file using a text editor such as Sublime or Text Wrangler. Enter a sentence or two of text and save it.
+- Back in terminal, type `cat my-new-file.txt`. You should see the text you entered printed on the screen. The `cat` command prints out the contents of a file.
+- Press the up arrow in your terminal, you should see the command you just entered. Play with the up and down arrows and you'll notice you can move backwards and forwards through the commands you've entered. Press down until you have an empty terminal again.
+- Type `clear` in the terminal. It clears all of the text that's been printed so far. Use it whenever you want a fresh slate.
+- Create another by typing `touch another-file.txt` and then another by typing `touch yet-another.txt`.
+- You can also create a __copy__ of a file. Try entering `cp another-file.txt another-file-2.txt`. 
+
+Notice that this command takes two arguments. The first argument is the name of the file to copy, the second argument is the name of the new file.
+
+- Type `ls` again to see your new files. So you can create a file, now let's __remove__ one. Type `rm my-` and then hit the tab key. You'll notice that terminal completes the name of the file. Hit enter. You should notice your file disappear. It's gone forever. It's not in the trash. It's just gone.
+- Now let's delete all the files you've created. All the files you've created have the ending `.txt`. It would be nice if we could use this fact to avoid typing each filename. The terminal lets us use wildcards for this. Try typing `rm *.txt`. You'll notice all the files are gone.
+
+Lets say you want to move to the Desktop. There are a few ways to do this. Remember when you typed `pwd`. It printed out the complete path to your directory. You could grab the first part of this (everything up to and including Desktop) type `cd /home/<yourname>/Desktop`. Or you can use the special directory name `..` which means __the parent directory__. Let's use that.
+
+- Type `cd ..`. Then type `pwd`. You've moved up a directory to the desktop.
+
+There are many more things you can do with the terminal and we'll see some more things throughout the class. But for now you know the basics. Feel free to play around, but be careful with commands like `rm`. 
+
+
 This is your first assignment, and its very important.
 It's the basis for all the other assignments. Each week, you'll be submitting work
 by uploading it to a website called Github.com. Github is a popular site used by programmers to 
