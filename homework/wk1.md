@@ -7,7 +7,7 @@ It should look like this.
 
 - Type `cd ~/Desktop/command-line`
 
-Commands have a few parts. Here `cd` is the command name. The second part is its 'argument.' With this command you're telling the terminal to __c__hange __d__irectory to the directory you just made.
+Commands have a few parts. Here `cd` is the command name. The second part is its 'argument.' With this command you're telling the terminal to change directory to the directory you just made.
 
 In order to __print__ your __working directory__ is, type the command `pwd`. 
 
