@@ -1,9 +1,23 @@
+This is your first assignment, and its very important. In this class we're going to be writing Javascript programs. In the beginning you'll be required to submit exercises each week. Rather than email we're going to use a tool called Github to share our work. Github is a website that programmers use to share and colloborate on code. At first, its going to feel like a lot of extra work, but this is a skill as important as learning Javascript syntax and semantics. In fact, among the designers I work with, knowing Git is a pre-requisite, something to include on your resume. There are two parts of this exercise:
+
+- We'll learn how to use the computer's terminal (command line) interface.
+- Then you'll learn how to create a "fork" or our class Github repository.
+
+Since we're not meeting the first week, and our second class falls on Labor Day, you have a long time to complete it. But you also won't have much guidance. Please go carve out plenty of time and go through this document slowly. 
+
+If you feel overwhelmed, step away and come back to it, ask one of your classmates for help, use google to search for answers or send me an email.
+
+### Using The Command Line
+
+You're all familiar with manipulating files and folders (directories) on your computers using their graphical interfaces (GUI). Almost every computer system also provides a text-only interface. Just as you can copy, move, create and delete files using your computers graphical interface, you can perform these actions via the command line. Using the command line can take some time to get used to, but the work pays off. Here we're just going to go through some basics. In many ways it will feel less efficient than using your computer's GUI. But the command line provides us the most direct access to Git. The following instructions are for __Mac OS__. You can perform all these operations on a Windows computer, but they're different. If you use a Window's computer, I would try to perform this part of the exercise on a lab computer. 
 
 - Create a folder (directory) on your Desktop, called `command-line`
 - Open it in Finder and resize it so it takes up the right half of your screen.
-- Open Terminal.app and resize it so it takes up the left half of your screen.
+- Open Terminal.app (type command+space and type Terminal to find it in spotlight) and resize it so it takes up the left half of your screen.
 
 It should look like this.
+
+![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/command-line-setup.png "Screenshot of command line setup")
 
 - Type `cd ~/Desktop/command-line`
 
@@ -29,11 +43,19 @@ Notice that this command takes two arguments. The first argument is the name of 
 Lets say you want to move to the Desktop. There are a few ways to do this. Remember when you typed `pwd`. It printed out the complete path to your directory. You could grab the first part of this (everything up to and including Desktop) type `cd /home/<yourname>/Desktop`. Or you can use the special directory name `..` which means __the parent directory__. Let's use that.
 
 - Type `cd ..`. Then type `pwd`. You've moved up a directory to the desktop.
+- Type `ls` uo list all the files on your desktop. You may have a lot, but you should be able to see your `command-line` directory. 
+
+Let's create another directory, but this time we'll use the command line.
+
+- Type `mkdir command-line-2`. Now you have another folder on your desktop. Finally, lets delete them both:
+- Type `rm -rf command-line-*`
+
+This time, the command is a little different. There is the `-rf` part. That tells the computer to delete not just these directories, but anything inside of them. 
 
 There are many more things you can do with the terminal and we'll see some more things throughout the class. But for now you know the basics. Feel free to play around, but be careful with commands like `rm`. 
 
+Note that you can learn more about almost any built-in command by using the `man` (manual) command. Try `man rm` and read about the r and f options.
 
-This is your first assignment, and its very important.
 It's the basis for all the other assignments. Each week, you'll be submitting work
 by uploading it to a website called Github.com. Github is a popular site used by programmers to 
 colloborate on code. It's based on Git, a piece of __version control software__. 
