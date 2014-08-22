@@ -1,3 +1,5 @@
+## First Homework Assignment
+
 This is your first assignment, and its very important. In this class we're going to be writing Javascript programs. In the beginning you'll be required to submit exercises each week. Rather than email we're going to use a tool called Github to share our work. Github is a website that programmers use to share and colloborate on code. At first, its going to feel like a lot of extra work, but this is a skill as important as learning Javascript syntax and semantics. In fact, among the designers I work with, knowing Git is a pre-requisite, something to include on your resume. There are two parts of this exercise:
 
 - We'll learn how to use the computer's terminal (command line) interface.
@@ -15,7 +17,7 @@ You're all familiar with manipulating files and folders (directories) on your co
 - Open it in Finder and resize it so it takes up the right half of your screen.
 - Open Terminal.app (type command+space and type Terminal to find it in spotlight) and resize it so it takes up the left half of your screen.
 
-It should look like this.
+Your colors and fonts might be different, but it should look like something like this:
 
 ![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/command-line-setup.png "Screenshot of command line setup")
 
@@ -56,23 +58,26 @@ There are many more things you can do with the terminal and we'll see some more 
 
 Note that you can learn more about almost any built-in command by using the `man` (manual) command. Try `man rm` and read about the r and f options.
 
-It's the basis for all the other assignments. Each week, you'll be submitting work
-by uploading it to a website called Github.com. Github is a popular site used by programmers to 
-colloborate on code. It's based on Git, a piece of __version control software__. 
+
+### Getting Started with Git and Github.
+
+Each week, you'll be submitting work by uploading it to a website called Github.com. Github is a popular site used by programmers to colloborate on code. It's based on Git, a piece of __version control software__. 
 
 If you don't know what that is, that's ok. You know when you're working on a Photoshop file and you want to make a new copy, but you
-think you might still want to keep around your old changes, so you save as and name it something like _final-project-new-2-jan-11th.psd_? Programmers don't like to that.
+think you might still want to keep around your old changes, so you save as and name it something like _final-project-new-jan-11th-really-the-latest-2.psd_? Programmers don't like to that.
 It gets to confusing to figure out what the actual new version is. So we use a version control tool to keep around all the old versions. They're tucked away, out of site, but available. Git is one of these tools.
 
 Git can be pretty daunting even to seasoned professionals. But our use will be pretty basic. Before you get started, here are some terms:
 
 #### Glossary
 
+Below are a few terms. You can read more extensive descriptions on [Github](https://help.github.com/articles/github-glossary).
+
 ##### Repository (Repo):
-A single git project. Can have multiple folders and files. Can exist on many computer. There is a copy of the repo for this class at https://github.com/miniatureape/js-fall-2014. I also have a local copy on my computer. You can clone it yourself and have your own copy. when you do, you have the complete project history.
+A single git project. It can contain multiple folders and files, exist on many computers. There is a copy of the repo for this class at https://github.com/miniatureape/js-fall-2014. I also have a local copy on my computer. You can clone it yourself and have your own copy. when you do, you have the complete project history.
 
 ##### Adding:
-In order for git to track a project, you have to 'add' it to the repo. Otherwise it will ignore it.
+In order for git to track a file, you have to 'add' it to the repo. Otherwise it will ignore it.
 
 ##### Commit:
 A change or set of changes you've made to one or more files.
@@ -86,15 +91,18 @@ You have a new project you're about to start. First you create a git repo to tra
 
 You decide there are a few changes you'd like to make so you edit your file. When you have completed the edits, you commit again. Then you decide you need a new file _main.css_ so you create it and add it to the repo. Now you want to share this new file and all your changes so you push again.
 
-
 Your assignment for this week:
 
-1. Create an account on github.com (a free one is just fine).
-2. Download a client for your [Mac](https://mac.github.com/) or [PC](https://windows.github.com/).
-3. Complete steps 1-6 in the getting started guide for [Mac](https://mac.github.com/help.html) or 1-4 in the guide for [PC](https://help.github.com/articles/getting-started-with-github-for-windows) 
-4. Create a local repository with a single file and push it github.com.
+- Create an account on github.com (They have paid accounts, but a free one is just fine).
+- [Install and setup](https://help.github.com/articles/set-up-git) git on your computer. Do steps 1-4 here.
+- Navigate to the [class repository](https://github.com/miniatureape/js-fall-2014).
+- Click the __Fork__ button.
 
-Note: the window instructions are much worse. I suggest you follow the Mac instructions even if you're on a windows machine, but understand you'll have to do a bit of translation, because the user interfaces are not identical. If you're having trouble see also:
+![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/fork-btn.png "Screen shot of github showing fork button")
+
+When you click the fork button, it takes my repository and creates a copy under your account. Now you have a full copy of all the class files under your account on github. To actually work on them or make changes, you need to copy them to your computer. To do this, make sure your on your copy of the repo at Github (It should be at https://github.com/<YOUR GITHUB USERNAME>/js-fall-2014), find the clone url.
+
+![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/clone-link.png "Screen shot of github showing clone link")
 
 - https://help.github.com/articles/creating-a-new-repository
 - https://help.github.com/articles/adding-repositories-with-github-for-windows
