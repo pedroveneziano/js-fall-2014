@@ -119,7 +119,10 @@ Let's recap. You forked my repository so you have your own copy on github. Then 
 
 - Now go back into your terminal. Type `cd js-fall-2014` to move into that folder. Remember, `cd` command lets you change your current directory.
 - Enter the command `git status`. You should be given a summary of the files you changed.
-- Now enter the command `git diff`. You should see your change printed out.
+- Now enter the command `git diff`. You should see your change printed out with a + sign next to it denoting the fact that you added something.
+- Enter the command `git add wk1.md`. This 'stages' the file to be commited. 
+- Enter the command `git commit -m "Completes first homework assignment."` This actually commits your work to the repository. It's part of the project's history forever. The -m option allows you to specify a message describing this change. The part in quotation marks is that description. You can write whatever sort of message you want.
+- Enter the command `git log`. You'll see a list of all the commits this project has. Notice you can see yours first in the list, but you can also see all my commits. __important__ when you're looking at this list, you'll notice there is a ':' at the bottom of the screen. You're not on your command line, you're in a special interactive mode. Type `q` to get out of this mode.
 
 
 - https://help.github.com/articles/creating-a-new-repository
