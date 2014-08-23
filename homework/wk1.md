@@ -1,11 +1,13 @@
 ## First Homework Assignment
 
-This is your first assignment, and its very important. In this class we're going to be writing Javascript programs. In the beginning you'll be required to submit exercises each week. Rather than email we're going to use a tool called Github to share our work. Github is a website that programmers use to share and colloborate on code. At first, its going to feel like a lot of extra work, but this is a skill as important as learning Javascript syntax and semantics. In fact, among the designers I work with, knowing Git is a pre-requisite, something to include on your resume. There are two parts of this exercise:
+This is your first assignment. It's very important. It will probably be the longest assignment of the year. It might be the most frustrating too. And you won't have much guidance from me either. So I asked you in advance to have patience, leave yourself plenty of time, help each other and be resourceful. 
+
+Since we're not meeting the first week, and our second class falls on Labor Day, you have a long time to complete it. Go through this document slowly. I estimate that it will take you between 1 - 3 hours.
+
+In this class we're going to be writing Javascript programs. In the beginning you'll be required to submit exercises each week. Rather than email we're going to use a tool called Github to share our work. Github is a website that programmers use to share and colloborate on code. At first, its going to feel like a lot of extra work, but this is a skill as important as learning Javascript syntax and semantics. In fact, among the designers I work with, knowing Git is a pre-requisite, something to include on your resume. There are two parts of this exercise:
 
 - We'll learn how to use the computer's terminal (command line) interface.
 - Then you'll learn how to create a "fork" or our class Github repository.
-
-Since we're not meeting the first week, and our second class falls on Labor Day, you have a long time to complete it. But you also won't have much guidance. Please go carve out plenty of time and go through this document slowly. 
 
 If you feel overwhelmed, step away and come back to it, ask one of your classmates for help, use google to search for answers or send me an email.
 
@@ -15,7 +17,7 @@ To complete this exercise, you'll need a Mac OS computer with a plain text edito
 
 You're all familiar with manipulating files and folders (directories) on your computers using their graphical interfaces (GUI). Almost every computer system also provides a text-only interface. Just as you can copy, move, create and delete files using your computers graphical interface, you can perform these actions via the command line. Using the command line can take some time to get used to, but the work pays off. Here we're just going to go through some basics. In many ways it will feel less efficient than using your computer's GUI. But the command line provides us the most direct access to Git. The following instructions are for __Mac OS__. You can perform all these operations on a Windows computer, but they're different. If you use a Window's computer, I would try to perform this part of the exercise on a lab computer. 
 
-- Create a folder (directory) on your Desktop, called `command-line`
+- Create a folder (directory) on your Desktop, called `command-line`. 
 - Open it in Finder and resize it so it takes up the right half of your screen.
 
 Your colors and fonts might be different, but it should look like something like this:
@@ -24,13 +26,12 @@ Your colors and fonts might be different, but it should look like something like
 
 For the rest of this exercise, I'll be asking you to enter commands on the terminal. You should type each one (don't copy and paste) and then hit the `enter` key.
 
-- Open Terminal.app (type command+space and type Terminal to find it in spotlight) and resize it so it takes up the left half of your screen.
+- Open Terminal.app (type command+space and type "Terminal" to find it in spotlight) and resize it so it takes up the left half of your screen.
 - Type `cd ~/Desktop/command-line`
 
-Commands have a few parts. Here `cd` is the command name. The second part is its 'argument.' With this command you're telling the terminal to change directory to the directory you just made.
+Commands have a few parts. Here `cd` is the command name. The second part is its 'argument.' With this command you're telling the terminal to __change directory__ to the directory you just made.
 
-In order to __print__ your __working directory__ is, type the command `pwd`. 
-
+- In order to __print__ your __working directory__ is, type the command `pwd`. 
 - In order to __list__ what's in the current directory, type the command `ls`. Since there are no files in this directory, the command won't print anything. Let's change that.
 - To create new empty file, we can use the command `touch`. Touch creates a file with whatever name you supply it. Try entering `touch my-new-file.txt` into the terminal. You should notice a new file appear in your Finder.
 - Try typing `ls` now. You should see the name of your new file.
@@ -49,47 +50,46 @@ Notice that this command takes two arguments. The first argument is the name of 
 Lets say you want to move to the Desktop. There are a few ways to do this. Remember when you typed `pwd`. It printed out the complete path to your directory. You could grab the first part of this (everything up to and including Desktop) type `cd /home/<yourname>/Desktop`. Or you can use the special directory name `..` which means __the parent directory__. Let's use that.
 
 - Type `cd ..`. Then type `pwd`. You've moved up a directory to the desktop.
-- Type `ls` uo list all the files on your desktop. You may have a lot, but you should be able to see your `command-line` directory. 
+- Type `ls` to list all the files on your desktop. You may have a lot, but you should be able to see your `command-line` directory. 
 
 Let's create another directory, but this time we'll use the command line.
 
 - Type `mkdir command-line-2`. Now you have another folder on your desktop. Finally, lets delete them both:
-- Type `rm -rf command-line-*`
+- Type `rm -rf command-line*`
 
 This time, the command is a little different. There is the `-rf` part. That tells the computer to delete not just these directories, but anything inside of them. 
 
 There are many more things you can do with the terminal and we'll see some more things throughout the class. But for now you know the basics. Feel free to play around, but be careful with commands like `rm`. 
 
-Note that you can learn more about almost any built-in command by using the `man` (manual) command. Try `man rm` and read about the r and f options.
-
+Note that you can learn more about almost any built-in command by using the `man` (manual) command. Try `man ls` and read about it.
 
 ### Getting Started with Git and Github.
 
 Each week, you'll be submitting work by uploading it to a website called Github.com. Github is a popular site used by programmers to colloborate on code. It's based on Git, a piece of __version control software__. 
 
 If you don't know what that is, that's ok. You know when you're working on a Photoshop file and you want to make a new copy, but you
-think you might still want to keep around your old changes, so you save as and name it something like _final-project-new-jan-11th-really-the-latest-2.psd_? Programmers don't like to that.
-It gets to confusing to figure out what the actual new version is. So we use a version control tool to keep around all the old versions. They're tucked away, out of site, but available. Git is one of these tools.
+think you might still want to keep around your old changes, so you save as and name it something like final-project-new-jan-11th-really-the-latest-2.psd_? Programmers don't like to do that.
+It gets to confusing to figure out what the actual new version is. So we use a version control tool to keep around all the old versions. They're tucked away, out of sight, but available. Git is one of these tools.
 
-Git can be pretty daunting even to seasoned professionals. But our use will be pretty basic. Before you get started, here are some terms:
+Git can be pretty daunting even to seasoned professionals, but our use will be pretty basic. Before you get started, here are some terms:
 
 #### Glossary
 
-Below are a few terms. You can read more extensive descriptions on [Github](https://help.github.com/articles/github-glossary).
+You can read more extensive descriptions on [Github](https://help.github.com/articles/github-glossary).
 
 ##### Repository (Repo):
-A single git project. It can contain multiple folders and files, exist on many computers. There is a copy of the repo for this class at https://github.com/miniatureape/js-fall-2014. I also have a local copy on my computer. You can clone it yourself and have your own copy. when you do, you have the complete project history.
+A single git project. Basically a folder on your computer that git knows about. It can contain multiple folders and files. Repositories can exist as copies on many computers and git gives you ways to keep them in sync. There is a copy of the repo for this class at https://github.com/miniatureape/js-fall-2014. I also have a local copy on my computer. Later, you will clone it yourself and have your own copy. When you do, you'll have a copy not just of the files, but of all the versions of the files. 
 
-##### Adding:
+##### Staging/Adding:
 In order for git to track a file, you have to 'add' it to the repo. Otherwise it will ignore it.
 
 ##### Commit:
-A change or set of changes you've made to one or more files.
+A change or set of changes you've made to one or more files. You can think of this as a 'snapshot' of what your project looked like at a moment in time.
 
 ##### Pushing:
 To move the code from your computer where you're working to a central repo to share with others, you 'push' your code.
 
-#### Example workflow.
+#### Example Workflow Using Git.
 
 You have a new project you're about to start. First you create a git repo to track files. Then you create a file, _index.html_. You're ready to save this work, so you add this file to the repo and commit file. You also want to share it with the world, so you push it to your remote repo. 
 
@@ -101,7 +101,7 @@ Your assignment for this week:
 
 When you're all done, you should be able to open a new terminal and type `git --version` and get some meaningful output (not a message about how the git command was not found). If you've got that working, you're good.
 
-- Create an account on github.com (They have paid accounts, but a free one is just fine).
+- Create an account on http://github.com (They have paid accounts, but a free one is just fine).
 - Navigate to the [class repository](https://github.com/miniatureape/js-fall-2014).
 - Click the __Fork__ button.
 
