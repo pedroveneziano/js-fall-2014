@@ -11,7 +11,9 @@ In this class we're going to be writing Javascript programs. In the beginning yo
 
 If you feel overwhelmed, step away and come back to it, ask one of your classmates for help, use google to search for answers or send me an email.
 
-To complete this exercise, you'll need a Mac OS computer with a plain text editor installed. I suggest using [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/) or [Text Wrangler](http://www.barebones.com/products/textwrangler/).
+To complete this exercise, you'll need a Mac OS computer with Snow Leopard (10.6) or later and a __plain__ text editor installed. I suggest using [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/) or [Text Wrangler](http://www.barebones.com/products/textwrangler/).
+
+> __NOTE__ If you have a version of Mac OS X before 10.5, email me.
 
 ### Using The Command Line
 
@@ -97,7 +99,11 @@ You decide there are a few changes you'd like to make so you edit your file. Whe
 
 Your assignment for this week:
 
+First, check if you have git installed on your computer (It's possible, especially if you've ever used Brew or something like that). Check by typing `git --version` in your terminal. If you see a version number, you have it and you can skip this next step. If not:
+
 - [Install and setup](https://help.github.com/articles/set-up-git) git on your computer. Do steps 1-4 here.
+
+__Note__: if you have a get a message that you can't install Git because its from an unidentified developer, [follow these instructions](https://help.openshift.com/hc/en-us/articles/202399240-Git-installation-issues-on-Mountain-Lion-OS-X-10-8-).
 
 When you're all done, you should be able to open a new terminal and type `git --version` and get some meaningful output (not a message about how the git command was not found). If you've got that working, you're good.
 
