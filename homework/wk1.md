@@ -1,6 +1,6 @@
 ## First Homework Assignment
 
-This is your first assignment. It's very important. It will probably be the longest assignment of the year. It might be the most frustrating too. And you won't have much guidance from me either. So I asked you in advance to have patience, leave yourself plenty of time, help each other and be resourceful. 
+This is your first assignment. It's very important. It will probably be the longest weekly exercise of the year. It might be the most frustrating too. And you won't have much guidance from me either. So I ask you in advance to have patience, leave yourself plenty of time, help each other and be resourceful. 
 
 Since we're not meeting the first week, and our second class falls on Labor Day, you have a long time to complete it. Go through this document slowly. I estimate that it will take you between 1 - 3 hours.
 
