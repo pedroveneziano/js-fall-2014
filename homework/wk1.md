@@ -9,18 +9,22 @@ Since we're not meeting the first week, and our second class falls on Labor Day,
 
 If you feel overwhelmed, step away and come back to it, ask one of your classmates for help, use google to search for answers or send me an email.
 
+To complete this exercise, you'll need a Mac OS computer with a plain text editor installed. I suggest using [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/) or [Text Wrangler](http://www.barebones.com/products/textwrangler/).
+
 ### Using The Command Line
 
 You're all familiar with manipulating files and folders (directories) on your computers using their graphical interfaces (GUI). Almost every computer system also provides a text-only interface. Just as you can copy, move, create and delete files using your computers graphical interface, you can perform these actions via the command line. Using the command line can take some time to get used to, but the work pays off. Here we're just going to go through some basics. In many ways it will feel less efficient than using your computer's GUI. But the command line provides us the most direct access to Git. The following instructions are for __Mac OS__. You can perform all these operations on a Windows computer, but they're different. If you use a Window's computer, I would try to perform this part of the exercise on a lab computer. 
 
 - Create a folder (directory) on your Desktop, called `command-line`
 - Open it in Finder and resize it so it takes up the right half of your screen.
-- Open Terminal.app (type command+space and type Terminal to find it in spotlight) and resize it so it takes up the left half of your screen.
 
 Your colors and fonts might be different, but it should look like something like this:
 
 ![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/command-line-setup.png "Screenshot of command line setup")
 
+For the rest of this exercise, I'll be asking you to enter commands on the terminal. You should type each one (don't copy and paste) and then hit the `enter` key.
+
+- Open Terminal.app (type command+space and type Terminal to find it in spotlight) and resize it so it takes up the left half of your screen.
 - Type `cd ~/Desktop/command-line`
 
 Commands have a few parts. Here `cd` is the command name. The second part is its 'argument.' With this command you're telling the terminal to change directory to the directory you just made.
@@ -93,16 +97,30 @@ You decide there are a few changes you'd like to make so you edit your file. Whe
 
 Your assignment for this week:
 
-- Create an account on github.com (They have paid accounts, but a free one is just fine).
 - [Install and setup](https://help.github.com/articles/set-up-git) git on your computer. Do steps 1-4 here.
+
+When you're all done, you should be able to open a new terminal and type `git --version` and get some meaningful output (not a message about how the git command was not found). If you've got that working, you're good.
+
+- Create an account on github.com (They have paid accounts, but a free one is just fine).
 - Navigate to the [class repository](https://github.com/miniatureape/js-fall-2014).
 - Click the __Fork__ button.
 
 ![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/fork-btn.png "Screen shot of github showing fork button")
 
-When you click the fork button, it takes my repository and creates a copy under your account. Now you have a full copy of all the class files under your account on github. To actually work on them or make changes, you need to copy them to your computer. To do this, make sure your on your copy of the repo at Github (It should be at https://github.com/<YOUR GITHUB USERNAME>/js-fall-2014), find the clone url.
+When you click the fork button, it takes my repository and creates a copy under your account. Now you have a full copy of all the class files under your account on github. To actually work on them or make changes, you need to copy them to your computer. To do this, make sure your on your copy of the repo at Github (It should be at https://github.com/<YOUR GITHUB USERNAME>/js-fall-2014), find the clone url and copy it into your clipboard.
 
 ![screen shot](https://github.com/miniatureape/js-fall-2014/raw/master/assets/images/clone-link.png "Screen shot of github showing clone link")
+
+- In your terminal, run the command `git clone <URL YOU JUST COPIED>`
+- run, 'ls' and you'll see that you have a new folder named js-fall-2014
+- Using Finder open homework.md in your text editor. You'll notice that the contents are the very text you're reading. Go to the very end, make a new line and write 'done' or something like that.
+
+Let's recap. You forked my repository so you have your own copy on github. Then you cloned it to your personal computer. Now there are 3 copies: mine, yours on github, and yours on your local machine. Then you changed one of the files. Now its time to tell git about those changes to your local copy and push them to your copy on github so I can view them there.
+
+- Now go back into your terminal. Type `cd js-fall-2014` to move into that folder. Remember, `cd` command lets you change your current directory.
+- Enter the command `git status`. You should be given a summary of the files you changed.
+- Now enter the command `git diff`. You should see your change printed out.
+
 
 - https://help.github.com/articles/creating-a-new-repository
 - https://help.github.com/articles/adding-repositories-with-github-for-windows
