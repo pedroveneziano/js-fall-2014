@@ -122,16 +122,8 @@ Let's recap. You forked my repository so you have your own copy on github. Then 
 - Now enter the command `git diff`. You should see your change printed out with a + sign next to it denoting the fact that you added something.
 - Enter the command `git add wk1.md`. This 'stages' the file to be commited. 
 - Enter the command `git commit -m "Completes first homework assignment."` This actually commits your work to the repository. It's part of the project's history forever. The -m option allows you to specify a message describing this change. The part in quotation marks is that description. You can write whatever sort of message you want.
-- Enter the command `git log`. You'll see a list of all the commits this project has. Notice you can see yours first in the list, but you can also see all my commits. __important__ when you're looking at this list, you'll notice there is a ':' at the bottom of the screen. You're not on your command line, you're in a special interactive mode. Type `q` to get out of this mode.
+- Enter the command `git push`. This takes your changes and sends them to github.
+- Go to your repo on github.com. Find this file in the homework folder and look for your change at the bottom. If you see it, you're done.
+- Send me a link to your repo via email.
 
-
-- https://help.github.com/articles/creating-a-new-repository
-- https://help.github.com/articles/adding-repositories-with-github-for-windows
-
-If you're not afraid of your computer's terminal, skipping the github GUI is fine. You can work on the command line if you wish.
-
-I know this is a lot to take in without any instruction, but remember, you have two weeks to complete this because we don't meet the first two Mondays. If you're having trouble, reach out to your fellow students, the internet at large or me. You will have completed this assignment if:
-
-- You have a github account
-- You have a local repository (doesn't matter what's in it).
-- You have pushed the local repository to github.
+We'll do more with git later. But that's enough for now. Note, there is also a GUI application for git. Feel free to use it if you're uncomfortable with the command line, but note throughout the class I'll always being doing instructions for the command line.
