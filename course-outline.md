@@ -193,4 +193,12 @@ By the end of this section, you should be able to:
 
 - Draw basic and complex shapes on a canvas.
 - Move shapes around the canvas.
--  
+
+
+Notes:
+
+- Why Javascript
+- Typing required
+- Worst Question
+- Work with your weaknesses and strengths.
+- Think SMALL.
