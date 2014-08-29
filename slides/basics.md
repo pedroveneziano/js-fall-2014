@@ -7,8 +7,23 @@ output: basics.html
 controls: false
 
 --
-One
+# Javascript
 --
-Two
+- Everywhere
+- Easy to learn
+- Powerful
 --
-Three
+# Syllabus
+--
+# Homework
+--
+## "I'm not a programmer"
+-- 
+## "Why are we learning this?"
+--
+## You Have To Type
+--
+## Think Small
+--
+[demo](http://miniatureape.github.io/facecontroller/)
+--
