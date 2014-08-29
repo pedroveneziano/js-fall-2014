@@ -59,37 +59,37 @@ In addition, I strongly recommend that you check out the following websites, or 
 #### Schedule
 
 
-__8/25__ - No Class (Instructor Away)
+__8/25__ - No Class (Instructor Away. Sorry)
 
 __9/1__ - No Class (Labor Day)
 
-__9/8__ - Intro / Javascript Basics
+__9/8__ - Intro / Javascript Basics (Exercise 1 Due)
 
-__9/15__ - Javascript in the browser
+__9/15__ - Javascript in the browser (Exercise 2 Due)
 
-__9/22__ - More Javascript Basics
+__9/22__ - More Javascript Basics (Exercise 3 Due)
 
-__9/29__ - Ajax and Remote Data
+__9/29__ - Ajax and Remote Data (Exercise 4 Due)
 
-__10/6__ - Persistence
+__10/6__ - Persistence (Exercise 5 Due)
 
-__10/13__ - Persistence
-
-__10/20__ - NodeJS
+__10/13__ - Persistence (Exercise 6 Due)
+ 
+__10/20__ - NodeJS 
 
 __10/27__ - NodeJS - Project 1 Due
 
-__11/3__ - The Canvas Element
+__11/3__ - The Canvas Element 
 
 __11/10__ - The Canvas Element
 
-__11/17__ - Sound and Video
+__11/17__ - Sound and Video (Mid Term Due)
 
 __11/24__ - Working with Maps
 
 __12/1__ - Overflow
 
-__12/8__ - Overflow - Final Project Due
+__12/8__ - Overflow (Final Project Due)
 
 
 
