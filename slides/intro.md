@@ -32,12 +32,12 @@ Schedule and subject matter.
 
 --
 
-I'm not a programmer"
+<del>"I'm not a programmer"</del>
 ===
 
 -- 
 
-"Why Do We Need to Know This?"
+<del>"Why Do We Need to Know This?"</del>
 ===
 
 --
