@@ -3,9 +3,8 @@ author:
   name: Justin Donato
   twitter: justindo
   url: http://justindonato.com
-output: basics.html
 controls: false
-theme: sudodoki/reveal-cleaver-theme
+theme: matmuchrapna/cleaver-ribbon
 --
 
 # Javascript Basics
@@ -140,7 +139,6 @@ var isReallyTired = isStudent && isEmployee;
 
 var hasGraduated = !isStudent;
 
-
 ```
 
 --
@@ -246,5 +244,82 @@ console.log(sentence.length);
 
 sentence = sentence.replace("Brown", "Pink");
 console.log(sentence);
+
+```
+
+# Functions
+
+You can wrap up several lines of code into reusable chunks called Functions. You can store them in variables. To use one, add () to the variable.
+
+```javascript
+
+var printFive = function() {
+    console.log(5);
+}
+
+printFive;
+printFive();
+
+
+```
+--
+
+# Functions
+
+Functions take arguments. They're variables created at function defintion and used within the function. 
+
+
+```javascript
+
+var printSquare = function(num) {
+    console.log(num * num);
+}
+
+printSquare(5);
+
+var printSum = function(num1, num2) {
+    console.log(num1 + num2);
+}
+
+printSum(4, 10);
+```
+
+--
+
+# Functions
+
+Functions return values. You return something from a function by using the __return__ keyword.
+
+
+```javascript
+var square = function(num) {
+    return num * num;
+}
+
+
+var squareOfFour = square(4);
+var squareOfNine = square(9);
+```
+
+--
+# Functions
+
+Functions can access variables outside of their brackets. We'll get into exactly how this works later.
+
+
+```javascript
+
+var counter = 0;
+
+var squareAndCount = function(num) {
+    counter = counter + 1
+    return num * num;
+}
+
+square(9);
+square(11);
+square(1);
+
+console.log(counter);
 
 ```
