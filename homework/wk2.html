@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="utf-8">
-      <title>Homework</title>
-    </head>
-    <body>
-        <script>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" />
+	<title>Homework: Week 02</title>
+</head>
+<body>
+	<script>
+		var firstNumber = 5;
+		console.log("First Number: " + firstNumber);
 
-            // Complete your work here. I'll do the first one for you:
-            var myNum = 3;
-            console.log(myNum);
+		var secondNumber = 8;
+		console.log("Second Number: " + secondNumber);
 
-            // Now you go...
+		var sentence = "Valesca Popozuda";
+		console.log("Sentence: " + sentence);
 
-        </script>
-    </body>
+		var sumNumbers = firstNumber + secondNumber;
+		console.log("Sum of the two Number Variables: " + sumNumbers);
+
+		var sumNumberSentence = firstNumber + sentence;
+		console.log("Sum of a Number and a Sentence: " + sumNumberSentence);
+
+		var sentenceMinusNumber = sentence - firstNumber;
+		console.log("Sentence minus Number: " + sentenceMinusNumber);
+
+		var classes = ["Visual Metaphor", "Javascript", "Web Design Basics", "Publication Design"];
+		console.log("Classes: " + classes);
+
+		var classInstructors = {
+		  "Visual Metaphor": "Alexandra Zsigmond",
+		  "Javascript": "Justin Donato",
+		  "Web Design Basics": "Nino Mendolia",
+		  "Publication Design": "Jeanette Hodge-Abbink"
+		}
+
+		var swap = function(first, second) {
+		  console.log("Swapped Numbers: " + second, first);
+		}
+
+		swap(1, 2);
+	</script>
+</body>
 </html>
