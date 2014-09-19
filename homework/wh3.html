@@ -12,7 +12,7 @@
               width: 100px;
               height: 100px;
               background: #fee;
-              -webkit-transition: left .5s;
+              -webkit-transition: left 1s, background 1s, width 1s, height 1s, top 1s;
           }
 
           .bordered {
@@ -20,7 +20,11 @@
           }
 
           #rect.lefty {
+              top: 90px;
               left: 200px;
+              background: #ffffff;
+              width: 20px;
+              height: 20px;
           }
 
       </style>
@@ -30,7 +34,19 @@
         <div id="rect"></div>
 
         <script>
-            // Your work goes here.
+            var rect = document.getElementById('rect');
+            rect.classList.add('bordered');
+            
+            var stroke = function(){
+              if(rect.classList.contains('lefty')){
+                rect.classList.remove('lefty');
+              } else {
+                rect.classList.add('lefty');
+              }
+            }
+          
+            rect.addEventListener('click', stroke);
+          
         </script>
 
     </body>
