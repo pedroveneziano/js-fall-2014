@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" />
+	<title>Week 4 Homework</title>
+	<style>
+
+		.yes{
+			background-color: green;
+		}
+
+		.no{
+			background-color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<script>
+
+	//Make a loop that console.logs the numbers 1 - 1000
+
+	var initial = 0;
+
+	for (var i = 0; i <1000; i += 1){
+		initial = initial + 1;
+		console.log(initial);
+	}
+
+	//Ask the user a yes-no question using prompt. Store the answer in a variable.
+	
+	var goodTime = prompt("Having a good time?", "Yes or no?");
+	console.log(goodTime);
+
+	//Write an if...then statement so that if you user input 'yes' the program adds the class 'yes' to the body of the page, or adds the class 'no' if the user enters 'no'. Add some css so the page background changes based on the class.
+
+	var changeBg = function() {
+		if (goodTime === "yes") {
+			document.body.classList.add("yes");
+		} else {
+			document.body.classList.add("no");
+		}
+	}
+
+	changeBg();
+
+	//Do the FizzBuzz problem from the reading.
+
+	for (var i = 1; i <= 100; i += 1){
+		if (i % 3 == 0) {
+			console.log("Fizz")
+		} else if (i % 5 == 0) {
+			console.log("Buzz")
+		} else {
+			console.log(i);
+		}
+	}
+
+	</script>
+</body>
+</html>
