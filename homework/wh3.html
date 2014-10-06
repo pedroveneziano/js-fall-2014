@@ -37,11 +37,11 @@
             var rect = document.getElementById('rect');
             rect.classList.add('bordered');
             
-            var stroke = function(){
-              if(rect.classList.contains('lefty')){
-                rect.classList.remove('lefty');
+            var stroke = function(e){
+              if(e.currentTarget.classList.contains('lefty')){
+                e.currentTarget.classList.remove('lefty');
               } else {
-                rect.classList.add('lefty');
+                e.currentTarget.classList.add('lefty');
               }
             }
           
