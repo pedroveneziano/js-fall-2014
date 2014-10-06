@@ -8,25 +8,156 @@
 	
 	<textarea type="text" id="content" placeholder="Digite aqui" autofocus="true" style="width: 600px;"></textarea>
 
+	<h3>Save</h3>
+	<ul>
+		<li id="save-A">A</li>
+		<li id="save-B">B</li>
+		<li id="save-C">C</li>
+		<li id="save-D">D</li>
+		<li id="save-E">E</li>
+	</ul>
+	<h3>Load</h3>
+	<ul>
+		<li id="load-A">A</li>
+		<li id="load-B">B</li>
+		<li id="load-C">C</li>
+		<li id="load-D">D</li>
+		<li id="load-E">E</li>
+	</ul>
+
 <script>
 (function() {
 
 	var textArea = document.getElementById("content");
+	
+	var saveAbutton = document.getElementById("save-A");
+	var loadAbutton = document.getElementById("load-A");
+	var saveBbutton = document.getElementById("save-B");
+	var loadBbutton = document.getElementById("load-B");
+	var saveCbutton = document.getElementById("save-C");
+	var loadCbutton = document.getElementById("load-C");
+	var saveDbutton = document.getElementById("save-D");
+	var loadDbutton = document.getElementById("load-D");
+	var saveEbutton = document.getElementById("save-E");
+	var loadEbutton = document.getElementById("load-E");
+
+	var introText = "Type Here";
+
+	var nothingSaved = "Nothing Saved Here"
+
+	//INITIAL TEXT & TEMPORARY TEXT//
 
 	var initialText = function() {
-		textArea.value = localStorage.storedText;
+		if (localStorage.tempText === undefined) {
+			textArea.value = introText;
+		} else if (localStorage.tempText === "") {
+			textArea.value = introText;
+		} else {
+			textArea.value = localStorage.tempText;
+		}
 	}
 
-	var updateStored = function() {
+	var updateTemp = function() {
 		var textContent = textArea.value;
-		localStorage.clear();
-		localStorage.setItem('storedText', textContent);
-		console.log(textContent);
+		localStorage.removeItem.tempText;
+		localStorage.setItem('tempText', textContent);
 	}
 
 	initialText();
 
-	textArea.addEventListener("keyup", updateStored);
+	//SAVE FUNCTION//
+
+	var saveA = function() {
+		var textContent = textArea.value;
+		localStorage.setItem('saveSlotA', textContent);
+	}
+
+	var saveB = function() {
+		var textContent = textArea.value;
+		localStorage.setItem('saveSlotB', textContent);
+	}
+
+	var saveC = function() {
+		var textContent = textArea.value;
+		localStorage.setItem('saveSlotC', textContent);
+	}
+
+	var saveD = function() {
+		var textContent = textArea.value;
+		localStorage.setItem('saveSlotD', textContent);
+	}
+
+	var saveE = function() {
+		var textContent = textArea.value;
+		localStorage.setItem('saveSlotE', textContent);
+	}
+
+	//LOAD FUNCTION//
+
+	var loadA = function() {
+		var textContent = textArea.value;
+		if (localStorage.saveSlotA === undefined) {
+			textArea.value = nothingSaved;
+		} else {
+		textArea.value = localStorage.saveSlotA;
+		localStorage.tempText = localStorage.saveSlotA;
+		}
+	}
+
+	var loadB = function() {
+		var textContent = textArea.value;
+		if (localStorage.saveSlotB === undefined) {
+			textArea.value = nothingSaved;
+		} else {
+		textArea.value = localStorage.saveSlotB;
+		localStorage.tempText = localStorage.saveSlotB;
+		}
+	}
+
+	var loadC = function() {
+		var textContent = textArea.value;
+		if (localStorage.saveSlotC === undefined) {
+			textArea.value = nothingSaved;
+		} else {
+		textArea.value = localStorage.saveSlotC;
+		localStorage.tempText = localStorage.saveSlotC;
+		}
+	}
+
+	var loadD = function() {
+		var textContent = textArea.value;
+		if (localStorage.saveSlotD === undefined) {
+			textArea.value = nothingSaved;
+		} else {
+		textArea.value = localStorage.saveSlotD;
+		localStorage.tempText = localStorage.saveSlotD;
+		}
+	}
+
+	var loadE = function() {
+		var textContent = textArea.value;
+		if (localStorage.saveSlotE === undefined) {
+			textArea.value = nothingSaved;
+		} else {
+		textArea.value = localStorage.saveSlotE;
+		localStorage.tempText = localStorage.saveSlotE;
+		}
+	}
+
+	//EVENT LISTENERS//
+
+	textArea.addEventListener("keyup", updateTemp);
+	
+	saveAbutton.addEventListener("click", saveA);
+	loadAbutton.addEventListener("click", loadA);
+	saveBbutton.addEventListener("click", saveB);
+	loadBbutton.addEventListener("click", loadB);
+	saveCbutton.addEventListener("click", saveC);
+	loadCbutton.addEventListener("click", loadC);
+	saveDbutton.addEventListener("click", saveD);
+	loadDbutton.addEventListener("click", loadD);
+	saveEbutton.addEventListener("click", saveE);
+	loadEbutton.addEventListener("click", loadE);
 
 
 })();
