@@ -7,31 +7,14 @@
 <body>
 	
 	<textarea type="text" id="content" placeholder="Digite aqui" autofocus="true" style="width: 600px;"></textarea>
-	<h3>Save</h3>
-	<ul>
-		<li>A</li>
-		<li>B</li>
-		<li>C</li>
-		<li>D</li>
-		<li>E</li>
-	</ul>
-	<h3>Load</h3>
-	<ul>
-		<li>A</li>
-		<li>B</li>
-		<li>C</li>
-		<li>D</li>
-		<li>E</li>
-	</ul>
 
 <script>
+(function() {
 
 	var textArea = document.getElementById("content");
 
 	var initialText = function() {
-		if (localStorage.storedText == true) {
 		textArea.value = localStorage.storedText;
-	}
 	}
 
 	var updateStored = function() {
@@ -45,7 +28,10 @@
 
 	textArea.addEventListener("keyup", updateStored);
 
+
+})();
 </script>
 	
 </body>
 </html>
+
