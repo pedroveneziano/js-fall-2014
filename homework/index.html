@@ -2,29 +2,33 @@
 <html lang = "en">
 <head>
 	<meta charset="utf-8" />
-	<title>Title goes here</title>
+	<title>Notedown - Assignment 5</title>
+	<link href='http://fonts.googleapis.com/css?family=Economica|Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css" media="all">
+
 </head>
 <body>
-	
-	<textarea type="text" id="content" placeholder="Digite aqui" autofocus="true" style="width: 600px;"></textarea>
-
-	<h3>Save</h3>
-	<ul>
-		<li id="save-A">A</li>
-		<li id="save-B">B</li>
-		<li id="save-C">C</li>
-		<li id="save-D">D</li>
-		<li id="save-E">E</li>
-	</ul>
-	<h3>Load</h3>
-	<ul>
-		<li id="load-A">A</li>
-		<li id="load-B">B</li>
-		<li id="load-C">C</li>
-		<li id="load-D">D</li>
-		<li id="load-E">E</li>
-	</ul>
-
+<div id="page">
+	<textarea type="text" id="content" placeholder="" autofocus="true" spellcheck="false"></textarea>
+	<header>
+		<ul id ="save">
+			<h1>Save</h1>
+			<li id="save-A">A</li>
+			<li id="save-B">B</li>
+			<li id="save-C">C</li>
+			<li id="save-D">D</li>
+			<li id="save-E">E</li>
+		</ul>
+		<ul id="load">
+			<h1>Load</h1>
+			<li id="load-A">A</li>
+			<li id="load-B">B</li>
+			<li id="load-C">C</li>
+			<li id="load-D">D</li>
+			<li id="load-E">E</li>
+		</ul>
+	</header>
+</div>
 <script>
 (function() {
 
@@ -41,9 +45,7 @@
 	var saveEbutton = document.getElementById("save-E");
 	var loadEbutton = document.getElementById("load-E");
 
-	var introText = "Type Here";
-
-	var nothingSaved = "Nothing Saved Here"
+	var introText = "Hey there! Welcome to Notedown.\nThis website was made for you to take notes anytime you want.\nClose the page, open it again 10 years from now, it will still be here!\nSo feel free to add it to your Favorites.\nYou can also use the Save slots on the bottom to keep multiple notes.\nOh, and relax, you're the only one who has access to it!";
 
 	//INITIAL TEXT & TEMPORARY TEXT//
 
@@ -97,7 +99,7 @@
 	var loadA = function() {
 		var textContent = textArea.value;
 		if (localStorage.saveSlotA === undefined) {
-			textArea.value = nothingSaved;
+			textArea.value = "Nothing saved here yet, mate!";
 		} else {
 		textArea.value = localStorage.saveSlotA;
 		localStorage.tempText = localStorage.saveSlotA;
@@ -107,7 +109,7 @@
 	var loadB = function() {
 		var textContent = textArea.value;
 		if (localStorage.saveSlotB === undefined) {
-			textArea.value = nothingSaved;
+			textArea.value = "Nope, no notes.";
 		} else {
 		textArea.value = localStorage.saveSlotB;
 		localStorage.tempText = localStorage.saveSlotB;
@@ -117,7 +119,7 @@
 	var loadC = function() {
 		var textContent = textArea.value;
 		if (localStorage.saveSlotC === undefined) {
-			textArea.value = nothingSaved;
+			textArea.value = "You should save something here, I'm telling you!";
 		} else {
 		textArea.value = localStorage.saveSlotC;
 		localStorage.tempText = localStorage.saveSlotC;
@@ -127,7 +129,7 @@
 	var loadD = function() {
 		var textContent = textArea.value;
 		if (localStorage.saveSlotD === undefined) {
-			textArea.value = nothingSaved;
+			textArea.value = "It feels so empty here...";
 		} else {
 		textArea.value = localStorage.saveSlotD;
 		localStorage.tempText = localStorage.saveSlotD;
@@ -137,7 +139,7 @@
 	var loadE = function() {
 		var textContent = textArea.value;
 		if (localStorage.saveSlotE === undefined) {
-			textArea.value = nothingSaved;
+			textArea.value = "There it... Nah, empty.";
 		} else {
 		textArea.value = localStorage.saveSlotE;
 		localStorage.tempText = localStorage.saveSlotE;
